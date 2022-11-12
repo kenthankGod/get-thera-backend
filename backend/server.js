@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 // const corsOptions = require("./config/corsOption");
-const path = require("path");
+// const path = require("path");
 
 require("dotenv").config({ path: "./config/.env" });
 
@@ -28,13 +28,13 @@ app.use(cors({
 app.use(authRoutes);
  
 // SERVER PRODUCTION ASSESTS
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join("frontend/build")));
-  app.get("*", (req, res) => {
-    // res.sendFile(path.resolve(__dirname, "/frontend/build/index.html"));
-    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
-  });
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static(path.join("frontend/build")));
+//   app.get("*", (req, res) => {
+//     res.sendFile(path.resolve(__dirname, "/frontend/build/index.html"));
+//     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
+//   });
+// }
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} you better catch it lol`);
