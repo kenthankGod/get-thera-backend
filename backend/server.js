@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 3000;
 // MIDDLEWARES
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ["http://localhost:3001", "https://getthera.onrender.com"]
+  origin: ["http://localhost:3000", "https://getthera.onrender.com"]
 }));
 
 // CORS
