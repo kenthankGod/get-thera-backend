@@ -4,7 +4,7 @@ const connectDB = require("./config/database");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
-// const corsOptions = require("./config/corsOption");
+const corsOptions = require('./config/corsOption')
 // const path = require("path");
 
 require("dotenv").config({ path: "./config/.env" });
@@ -17,13 +17,10 @@ const PORT = process.env.PORT || 3000;
    
 // MIDDLEWARES
 app.use(bodyParser.json());
-// app.use(cors())
-app.use(cors({
-  origin: ["http://localhost:3000", "https://gethera.netlify.app"]
-}));
 
 // CORS
-// app.use(cors(corsOptions)); 
+app.use(cors(corsOptions));
+
 
 // ROUTE
 app.use(authRoutes);
