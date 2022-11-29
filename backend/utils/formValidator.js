@@ -2,7 +2,7 @@ const joi = require("joi");
 
 const registerationFieldValidation = (data) => {
   const schema = joi.object({
-    userName: joi.string().trim().required().label("Username"),
+    userName: joi.string().required().label("Username"),
     email: joi.string().email().required().label("Email"),
     password: joi.string().min(4).required().label("Password"),
   });
@@ -17,9 +17,9 @@ const loginFieldValidation = (data) => {
   });
 
   return schema.validate(data);
-};
+}; 
 
-module.exports = {
+module.exports = {  
   registerationFieldValidation,
   loginFieldValidation,
-};
+}; 

@@ -2,9 +2,9 @@ const { User } = require("../model/User");
 const {
   loginFieldValidation,
   registerationFieldValidation,
-} = require("../middleware/validatorMiddleware");
-const { generateToken } = require("../middleware/jwtAssign");
-const { emailToLowerCase } = require("../middleware/emailTolowercase");
+} = require("../utils/formValidator");
+const { generateToken } = require("../utils/jwtAssign");
+const { emailToLowerCase } = require("../utils/emailTolowercase");
 const bcrypt = require("bcrypt");
 
 module.exports.signup_post = async (req, res) => {
@@ -21,23 +21,23 @@ module.exports.signup_post = async (req, res) => {
         .status(400)
         .json({ message: `'${email}, Email already exists!` });
     }
+
     // hash password
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
     // create user
     const user = await User.create({
-      userName,
+      userName, 
       email: emailToLowerCase(email),
       password: hashedPassword,
     });
     if (user) {
       res.status(201).send({
-        message: "User registered successfully!",
-        _id: user.id,
-        email: user.email,
-        token: generateToken(user._id),
+        userName,
+        email,
       });
+      // res.status(201).send(generateToken(user._id))
     }
   } catch (error) {
     console.log(error);
@@ -67,11 +67,10 @@ module.exports.login_post = async (req, res) => {
       );
       if (comparedPassword) {
         return res.status(200).send({
-          message: "Successfully logged in",
-          _id: existingUser.id,
-          email: existingUser.email,
+          email,
           token: generateToken(existingUser._id),
         });
+        // res.send(generateToken(existingUser._id))
       } else {
         res
           .status(400)
@@ -81,11 +80,4 @@ module.exports.login_post = async (req, res) => {
   } catch (error) {
     console.log(error);
   }
-};
-
-module.exports.therapistBooking_get = async (req, res) => {
-  const { _id, email } = await User.findById(req.user.id);
-  res
-    .status(200)
-    .json({ id: _id, email, message: `'${email}' is authorized ` });
 };
