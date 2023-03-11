@@ -28,7 +28,7 @@ module.exports.signup_post = async (req, res) => {
 
     // create user
     const user = await User.create({
-      userName, 
+      userName,
       email: emailToLowerCase(email),
       password: hashedPassword,
     });
