@@ -1,0 +1,257 @@
+
+    [
+        {
+      "id": 1,
+      "name": "Dr. Anwuli Okoro",
+      "email": "okoroA@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait1man.avif",
+      "amount": 25000,
+      "experience": "22 years of exp.",
+      "duration": "30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 2,
+      "name": "Dr. Ebuka Uchendu",
+      "email": "Ebuka55@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait2man.jpg",
+      "amount": 10000,
+      "experience": "5 years of exp.",
+      "duration": "30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 3,
+      "name": "Dr. Musa Garba",
+      "email": "mus100@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait3man.jpg",
+      "amount": 22000,
+      "experience": "17 years of exp.",
+      "duration": "30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 4,
+      "name": "Dr. Abdul Muhamed",
+      "email": "rAbdulg@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait9man.jpg",
+      "amount": 8000,
+      "experience": "7 years of exp.",
+      "duration": "1hour, 30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 5,
+      "name": "Dr. Edet Pwajok",
+      "email": "Alby400@gmail.com",
+      "badge": "available",
+      "image": "/images/male5.webp",
+      "amount": 6000,
+      "experience": "3 years of exp.",
+      "duration": "1hour, 30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 6,
+      "name": "Dr. Bawa Abubakar",
+      "email": "Bawa@gmail.com",
+      "badge": "not available",
+      "image": "/images/male3.avif",
+      "amount": 10000,
+      "experience": "12 years of exp.",
+      "duration": "1hour, 30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 7,
+      "name": "Mrs. Jennifer Gbode",
+      "email": "jengbod@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait4woman.jpg",
+      "amount": 10000,
+      "experience": "7 years of exp.",
+      "duration": "1hour, 30 minutes",
+      "gender": "female"
+    },
+  
+    {
+      "id": 8,
+      "name": "Dr. Edet Sunday",
+      "email": "rosemary@gmail.com",
+      "badge": "not available",
+      "image": "/images/male1.webp",
+      "amount": 10000,
+      "experience": "7 years of exp.",
+      "duration": "40 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 9,
+      "name": "Dr. Dawi Maidawa",
+      "email": "shangchi@gmail.com",
+      "badge": "available",
+      "image": "/images/male8.webp",
+      "amount": 10000,
+      "experience": "6 years of exp.",
+      "duration": "40 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 10,
+      "name": "Ama Pascal",
+      "email": "pascal@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait5man.jpg",
+      "amount": 10000,
+      "experience": "8 years of exp.",
+      "duration": "40 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 11,
+      "name": "Fatimah Jbril",
+      "email": "drOlive@gmail.com",
+      "badge": "not available",
+      "image": "/images/female1.jpeg",
+      "amount": 6500,
+      "experience": "4 years of exp.",
+      "duration": "40 minutes",
+      "gender": "female"
+    },
+  
+    {
+      "id": 12,
+      "name": "Dr. Chijioke Pince",
+      "email": "prince@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait10man.jpg",
+      "amount": 10000,
+      "experience": "6 years of exp.",
+      "duration": "30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 13,
+      "name": "Dr. Ani Michael",
+      "email": "okoroA@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait7man.jpg",
+  
+      "amount": 10000,
+      "experience": "2 years of exp.",
+      "duration": "30 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 14,
+      "name": "Dr. Peter Obi",
+      "email": "peter@gmail.com",
+      "badge": "available",
+      "image": "/images/malll.webp",
+      "amount": 19000,
+      "experience": "9 years of exp.",
+      "duration": "1 hour",
+      "gender": "male"
+    },
+  
+    {
+      "id": 15,
+      "name": "Dr. Boluwatife Rachel",
+      "email": "bolu@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait3woman.jpg",
+      "amount": 20000,
+      "experience": "17 years of exp.",
+      "duration": "1 hour",
+      "gender": "female"
+    },
+  
+    {
+      "id": 16,
+      "name": "Dr. Rukenwe Sandra",
+      "email": "rAbdulg@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait002woman.jpg",
+      "amount": 22000,
+      "experience": "20 years of exp.",
+      "duration": "1 hour",
+      "gender": "female"
+    },
+  
+    {
+      "id": 17,
+      "name": "Dr. Adaoma Scholar",
+      "email": "Alby400@gmail.com",
+      "badge": "available",
+      "image": "/images/female8.webp",
+      "amount": 9000,
+      "experience": "9 years of exp.",
+      "duration": "55 minutes"
+    },
+  
+    {
+      "id": 18,
+      "name": "Dr. Hasana Faith",
+      "email": "faith@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait1woman.jpg",
+      "amount": 10000,
+      "experience": "5 years of exp.",
+      "duration": "45 minutes",
+      "gender": "female"
+    },
+  
+    {
+      "id": 19,
+      "name": "Dr. Tolu Bode",
+      "email": "bode@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait6man.jpg",
+      "amount": 10000,
+      "experience": "10 years of exp.",
+      "duration": "55 minutes",
+      "gender": "male"
+    },
+  
+    {
+      "id": 20,
+      "name": "Dr. Ituhan Florence",
+      "email": "isak@gmail.com",
+      "badge": "not available",
+      "image": "/images/potrait00woman.jpg",
+      "amount": 10000,
+      "experience": "7 years of exp.",
+      "duration": "55 minutes",
+      "gender": "female"
+    },
+  
+    {
+      "id": 21,
+      "name": "Dr. Baiwa Baba",
+      "email": "baba@gmail.com",
+      "badge": "available",
+      "image": "/images/potrait4man.jpg",
+      "amount": 11000,
+      "experience": "10 years of exp.",
+      "gender": "male",
+      "duration": "55 minutes"
+    }
+]
+  
+  
+  

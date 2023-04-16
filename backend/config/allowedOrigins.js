@@ -5,4 +5,4 @@ const allowedOrigins = [
     'https://gethera.netlify.app'
 ]
 
-module.exports = allowedOrigins
+module.exports = allowedOrigins    
