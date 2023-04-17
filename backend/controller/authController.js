@@ -66,7 +66,7 @@ module.exports.login_post = async (req, res) => {
       });
     }
 
-    if (user && (await bcrypt.compare(password, user.password))) {  
+    if (user && (await bcrypt.compare(password, user.password))) {
       res.json({
         _id: user.id,
         email: user.email,
