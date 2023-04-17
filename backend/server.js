@@ -28,8 +28,3 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} you better catch it lol`);
 });
     
-
-// how can i build a booking website with react and node where
-//  the bookings are stored in the backend with mongo db, the bookings
-//   contain date, time, name of therapist, and amount, these are forms from the frontend but i want 
-// them saved in a mongoDB how will the backend and frontend code look like
