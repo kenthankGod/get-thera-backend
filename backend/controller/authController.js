@@ -77,3 +77,9 @@ module.exports.login_post = async (req, res) => {
     console.log(error);
   }
 };
+
+
+
+module.exports.hello_get = async (req, res) => {
+  res.send("testing auth route")
+};

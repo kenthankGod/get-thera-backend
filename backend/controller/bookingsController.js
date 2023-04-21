@@ -76,3 +76,8 @@ const booking = await Bookings.findByIdAndDelete({_id: id});
 
 };
 
+
+
+module.exports.helloGet = async (req, res) => {
+  res.send("testing booking route")
+};

@@ -13,4 +13,9 @@ router.delete(
   bookingsController.deleteBooking
 );
 
+router.get(
+  "/hello",
+  bookingsController.helloGet
+);
+
 module.exports = router;
