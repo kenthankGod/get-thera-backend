@@ -4,11 +4,11 @@ const { protectedRoute } = require("../middleware/authMiddleware");
 
 const router = Router();
 
-router.post("/addBookings", protectedRoute, bookingsController.setBooking);
-router.get("/allBookings", protectedRoute, bookingsController.getBookings);
+router.post("/api/addBookings", protectedRoute, bookingsController.setBooking);
+router.get("/api/allBookings", protectedRoute, bookingsController.getBookings);
 
 router.delete(
-  "/deleteBooking/:id",
+  "/api/deleteBooking/:id",
   protectedRoute,
   bookingsController.deleteBooking
 );
